@@ -20,8 +20,8 @@
 elrepo.pubkey:
   file.managed:
     - name: /etc/pki/rpm-gpg/RPM-GPG-KEY-elrepo.org
-    - source: {{ salt['pillar.get']('ius:pubkey', pkg.key) }}
-    - source_hash:  {{ salt['pillar.get']('ius:pubkey_hash', pkg.key_hash) }}
+    - source: {{ salt['pillar.get']('elrepo:pubkey', pkg.key) }}
+    - source_hash:  {{ salt['pillar.get']('elrepo:pubkey_hash', pkg.key_hash) }}
 
 elrepo.rpm:
   pkg.installed:
