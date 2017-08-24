@@ -7,12 +7,12 @@
   '6': {
     'key': 'https://www.elrepo.org/RPM-GPG-KEY-elrepo.org',
     'key_hash': 'md5=d7507f4b95dd2c0271de97afe1badc51',
-    'rpm': 'http://www.elrepo.org/elrepo-release-6-6.el6.elrepo.noarch.rpm',
+    'rpm': 'http://www.elrepo.org/elrepo-release-6-8.el6.elrepo.noarch.rpm',
   },
   '7': {
     'key': 'https://www.elrepo.org/RPM-GPG-KEY-elrepo.org',
     'key_hash': 'md5=d7507f4b95dd2c0271de97afe1badc51',
-    'rpm': 'http://www.elrepo.org/elrepo-release-7.0-2.el7.elrepo.noarch.rpm',
+    'rpm': 'http://www.elrepo.org/elrepo-release-7.0-3.el7.elrepo.noarch.rpm',
   },
 }, 'osmajorrelease') %}
 
